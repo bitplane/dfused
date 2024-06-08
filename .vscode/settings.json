@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "obfuspace.h": "c",
+        "socket.h": "c"
+    }
+}

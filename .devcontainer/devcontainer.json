@@ -1,0 +1,8 @@
+{
+	"name": "dfused",
+	"build": {		
+		"dockerfile": "Dockerfile"
+	},
+	// need this in order to run as the user
+	"postCreateCommand": "sudo chown :vscode /dev; sudo chmod g+rw /dev"
+}
